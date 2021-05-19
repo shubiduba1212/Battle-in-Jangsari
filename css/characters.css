@@ -1,0 +1,16 @@
+/*characters.css*/
+@charset "utf-8";
+
+.characters { width: 100%; height: auto;}
+.characters .frame {width: 100%; height: auto; text-align: center; margin: 0 auto;padding-bottom: 20px;}
+.characters .frame .origin {  }
+.characters .frame .origin > div > div {padding: 20px 10px; border-bottom: 1px solid #555;}
+.characters .frame .origin .cha_img { height: 260px;  background-size: cover; background-position: 50% 50%;background-image: url(../img/cha_01.jpg);}
+.characters .frame .origin h4 {color: #555; font-size: 18px; text-align: left; padding-top: 20px;}
+.characters .frame .origin .cha_txt {display: table; height: 222px; width: 100%;}
+.characters .frame .origin .cha_txt .cha_dt {display: table-cell; text-align: center; vertical-align: middle; }
+.characters .frame .origin .cha_txt p { font-size: 24px; color: #555; text-align: center; letter-spacing: -0.9;}
+
+@media (min-width: 960px){
+  .characters .frame {width: 960px;}
+}

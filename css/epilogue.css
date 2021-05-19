@@ -1,0 +1,24 @@
+/*epilogue.css*/
+@charset "utf-8";
+
+.epilogue { width: 100%; height: auto;}
+.epilogue .frame {width: 100%; height: auto; text-align: center; margin: 0 auto;padding-bottom: 20px;}
+.epilogue .frame .origin { }
+.epilogue .frame .origin > div > div {padding:10px; }
+.epilogue .frame .origin .epi_img { height: 240px;  background-size: cover; background-position: 50% 50%;background-image: url(../img/ep_top_01.png);}
+.epilogue .frame .origin .epi_txt {display: table; height: 100%; width: 100%;}
+.epilogue .frame .origin .epi_txt .epi_dt {display: table-cell; text-align: center; vertical-align: middle; }
+.epilogue .frame .origin .epi_txt p { font-size: 18px; color: #555; text-align: center;}
+
+.epilogue .frame .origin > div:nth-child(2) > div:first-child { order: 1;}
+.epilogue .frame .origin > div:nth-child(2) > div:last-child { order: 0;}
+.epilogue .frame .origin > div:nth-child(3) { padding-bottom: 10px;}
+.epilogue .frame .origin .epi { height: 420px; padding: 20px 0 40px;  }
+.epilogue .frame .origin .epi .epi_img {height: 360px; background-size: contain; background-position: 50% 50%; background-repeat: no-repeat; }
+
+
+@media (min-width: 960px){
+  .epilogue .frame {width: 960px;}
+}
+
+
